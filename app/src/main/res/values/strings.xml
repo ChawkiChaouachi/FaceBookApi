@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FaceookDisplayPic</string>
+    <string name="facebook_app_id">341542156309963</string>
+    <string name="fb_login_protocol_scheme">fb341542156309963</string>
+
+</resources>
