@@ -5,8 +5,10 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 /**
- * Created by macbook on 06/11/2017.
+ * Created by chawki on 06/11/2017.
  */
+// model cursor use serializable and SerializedName for parsing data and to pass data from fragment to fragment or from acticity to ......
+
 
 public class Cursor implements Serializable {
 

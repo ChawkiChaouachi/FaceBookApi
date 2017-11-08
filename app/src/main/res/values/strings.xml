@@ -2,5 +2,17 @@
     <string name="app_name">FaceookDisplayPic</string>
     <string name="facebook_app_id">341542156309963</string>
     <string name="fb_login_protocol_scheme">fb341542156309963</string>
-
+    <string name="previous_label">Previous</string>
+    <string name="next_label">Next</string>
+    <string name="album_label">Albums</string>
+    <string name="photos_label">Photos</string>
+    <string name="facebook_label">Facebook</string>
+    <string name="check_network">Please Check Your network</string>
+    <string name="unknown_prob">Unknown Problem !</string>
+    <string name="no_album_found">No albums found on facebook</string>
+    <string name="no_photo_found">Album is empty</string>
+    <string name="try_again">Try again</string>
+    <string name="enter_name">Enter a name for photo</string>
+    <string name="enter_name_plz">Please Enter a name for photo</string>
+    <string name="photo_uploaded">Photo uploaded</string>
 </resources>

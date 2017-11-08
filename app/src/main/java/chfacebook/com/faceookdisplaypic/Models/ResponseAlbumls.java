@@ -6,8 +6,9 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by macbook on 06/11/2017.
+ * Created by chawki on 06/11/2017.
  */
+// model ResponseAlbumls use serializable and SerializedName for parsing data and to pass data from fragment to fragment or from acticity to ......
 
 public class ResponseAlbumls implements Serializable {
 

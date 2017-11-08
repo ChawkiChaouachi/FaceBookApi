@@ -3,11 +3,14 @@ package chfacebook.com.faceookdisplaypic.Models;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by chawki on 06/11/2017.
  */
 
+
+// model album use serializable and SerializedName for parsing data and to pass data from fragment to fragment or from acticity to ......
 public class Album implements Serializable {
 
     @SerializedName("created_time")
@@ -19,7 +22,7 @@ public class Album implements Serializable {
     @SerializedName("id")
     String id ;
 
-    PhotoAlbum  photoAlbum;
+    List<PhotoAlbum> photoAlbum;
 
     public String getCreatedTime() {
         return createdTime;
@@ -45,11 +48,5 @@ public class Album implements Serializable {
         this.id = id;
     }
 
-    public PhotoAlbum getPhotoAlbum() {
-        return photoAlbum;
-    }
 
-    public void setPhotoAlbum(PhotoAlbum photoAlbum) {
-        this.photoAlbum = photoAlbum;
-    }
 }
